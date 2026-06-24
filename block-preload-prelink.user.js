@@ -1,9 +1,9 @@
 // ==UserScript==
-// @name         Block Preloading & Prelinking
-// @namespace    https://github.com/userscripts
-// @version      1.2.0
+// @name         Block Site's Preloading & Prelinking.
+// @namespace    https://github.com/troysjanda
+// @version      1.2.1
 // @description  Blocks <link rel="preload|prefetch|prerender|preconnect|dns-prefetch"> and dynamic Resource Hints injected at runtime.
-// @author       You
+// @author       Troy Janda
 // @match        *://*/*
 // @run-at       document-start
 // @grant        none
