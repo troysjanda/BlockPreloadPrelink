@@ -20,4 +20,7 @@ A userscript that blocks preloading and prelinking (prefetching) across all site
 | `link.rel = '...'` on existing elements | Overridden `HTMLLinkElement.rel` setter |
 | Low-priority `fetch()` calls | `fetch` wrapper checks `importance`/`priority` |
 
-Set `LOG = true` near the top if you want console output showing what gets blocked on each site.
+**NOTE**
+There might be site breakage, Please utilise the log feature to see what is blocked for trouble shooting. This is a work in progress and will evolve as time see fits.
+
+Set `LOG = true` near the top of script for console output showing what gets blocked on each site.
